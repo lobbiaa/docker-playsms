@@ -47,6 +47,5 @@ RUN chown playsms:playsms -R /_docker-setup.sh /etc/php83 && \
 	chmod 0644 /_docker-setup.sh && \
 	chmod 0777 -R /var/log
 
-USER playsms
 
 CMD ["/run.sh", "123"]
